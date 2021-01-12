@@ -14,37 +14,31 @@ const IndexPage = () => (
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
-        <ul className="actions special">
+        {/* <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                Explore
+                Learn More
               </a>
             </Scroll>
           </li>
-        </ul>
+        </ul> */}
       </div>
-      <Scroll type="id" element="one">
+      {/* <Scroll type="id" element="one">
         <a href="#one" className="more">
           Learn More
         </a>
-      </Scroll>
+      </Scroll> */}
     </section>
 
-    <section id="one" className="wrapper style1 special">
+    {/* <section id="one" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            Hi. My name is Martin Mogusu
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            I use technology to create simple solutions to common problems
           </p>
         </header>
         <ul className="icons major">
@@ -65,22 +59,21 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section>
+    </section> */}
 
-    <section id="two" className="wrapper alt style2">
+    {/* <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
           <img src={pic1} alt="" />
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
+            Using technology to solve
             <br />
-            sed ullamcorper
+            problems
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Technology is a powerful tool, and a great playground.
           </p>
         </div>
       </section>
@@ -116,9 +109,9 @@ const IndexPage = () => (
           </p>
         </div>
       </section>
-    </section>
+    </section> */}
 
-    <section id="three" className="wrapper style3 special">
+    {/* <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
           <h2>Accumsan mus tortor nunc aliquet</h2>
@@ -175,9 +168,9 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section>
+    </section> */}
 
-    <section id="cta" className="wrapper style4">
+    {/* <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
           <h2>Arcue ut vel commodo</h2>
@@ -199,7 +192,7 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section>
+    </section> */}
   </Layout>
 );
 

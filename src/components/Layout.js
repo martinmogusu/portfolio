@@ -46,7 +46,7 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Spectral' },
+                { name: 'description', content: 'Martin Mogusu' },
                 { name: 'keywords', content: 'site, web' },
               ]}
             >
@@ -60,7 +60,7 @@ class Layout extends Component {
               }
             >
               <div id="page-wrapper">
-                <SideBar fullMenu={fullMenu} />
+                {/* <SideBar fullMenu={fullMenu} /> */}
                 {children}
                 <Footer />
               </div>
